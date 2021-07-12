@@ -1,0 +1,478 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="descriprion" content="Welcome to one of the best restaurants in the Country. Here you can order extremely tasty food with fast delivery 24/7.">
+		<meta name="keywords" content="menu, restaurant, food, best food, fast-food, n-food, salads, drinks, meats, sushi, cakes, pasta, pizza, burgers, soups">  
+		<meta name="author" content="N.Nikolov">
+		<title>Food.</title>
+		<link rel="icon" href="images/slice_of_pizza.ico">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+		<div id="progressbar"></div>
+		
+		<header class="scrollSpy">	
+			<a data-aos="fade-down"
+			data-aos-duration="1000"
+			data-aos-offset="50" href="#" class="logo">Food<span>.</span></a>
+			<div class="menuToggle" onclick="toggleMenu();"></div>
+			<ul data-aos="fade-down"
+			data-aos-duration="1000"
+			data-aos-offset="50" class="navigation">
+				<li><a data-spy="banner" class="current" href="#banner" onclick="toggleMenu();">Home</a></li>
+				<li><a data-spy="about" href="#about" onclick="toggleMenu();">About</a></li>
+				<li><a data-spy="menu" href="#menu" onclick="toggleMenu();">Menu</a></li>
+				<li><a data-spy="expert" href="#expert" onclick="toggleMenu();">Expert</a></li>
+				<li><a data-spy="testimonials" href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+				<li><a data-spy="contact" href="#contact" onclick="toggleMenu();">Contact</a></li>	
+			</ul>
+		</header>
+
+		<section class="banner scrollSpy" id="banner">
+			<div data-aos="zoom-in"
+			data-aos-duration="1200"
+			data-aos-offset="100" class="content">
+				<h2>Always choose Good</h2>
+				<p>Welcome to one of the best restaurants in the Country.<span> Here you can order extremely good quality food for you and your family.</span></p>
+				<a href="#menu" class="btn">Our Menu</a>		
+			</div>
+			
+			<a class="pulse-phone" href="tel:+359877067507"><i class="fa fa-phone"></i></a>
+			
+			<div class="arrow">
+				<a href="#about"><i class="fa fa-angle-down"></i></a>
+			</div>
+		</section>
+
+		<main>
+			<section class="about scrollSpy" id="about">
+				<div class="row">
+					<div data-aos="fade-right"
+					data-aos-duration="1000"
+					data-aos-offset="200" class="col50">
+						<h2 class="titleText"><span>A</span>bout Us</h2>
+						<p>Everything began in 1946 when the proprietor opened his first espresso and doughnut and sandwich shop. It was gigantically fruitful and this driven him to begin another shop called organization name. He opened the principal store in 1950 in Massachusetts in the USA.</p>
+						<p>Today, ‘Organization Name’ can be found in 30 nations worldwide in in excess of 10,000 areas. It has turned into the world’s driving’ Coffee and Baked Goods chain, serving’ in excess of 900 million doughnuts and 1.5 some espresso a year all inclusive. Furthermore, presently it’s additionally in India.</p>
+					</div>
+					<div data-aos="fade-right"
+					data-aos-duration="1000"
+					data-aos-offset="200" class="col50">
+						<div class="imgBx">
+							<img src="images/pizza-about.jpg" alt="pizza-about-img">
+						</div>
+					</div>
+				</div>
+			</section>
+		<hr>
+			<section class="menu scrollSpy" id="menu">
+				<div  data-aos="zoom-in"
+				data-aos-duration="800"
+				data-aos-offset="100" class="title">
+					<h2 class="titleText">Our <span>M</span>enu</h2>
+					<p>Тhis is our amazing menu.</p>
+				</div>
+				<div class="content">
+					<a data-aos="zoom-in"
+					data-aos-duration="1000"
+					data-aos-offset="250" href="m-pasta.html">
+						<div class="box">
+							<div class="imgBx">
+								<img src="images/pasta.jpg" alt="pasta">
+							</div>
+							<div class="text">
+								<h3>Special Pasta</h3>
+							</div>
+						</div>
+					</a>	
+					<a data-aos="zoom-in"
+					data-aos-duration="1000"
+					data-aos-offset="250" href="m-soup.html">
+						<div class="box">
+							<div class="imgBx">
+								<img src="images/soup.jpg" alt="salad">
+							</div>
+							<div class="text">
+								<h3>Special Soup</h3>
+							</div>
+						</div>
+					</a>
+					<a data-aos="zoom-in"
+					data-aos-duration="1000"
+					data-aos-offset="250" href="m-salads.html">
+						<div class="box">
+							<div class="imgBx">
+								<img src="images/salad.jpg" alt="salad">
+							</div>
+							<div class="text">
+								<h3>Special Salads</h3>
+							</div>
+						</div>
+					</a>
+					<a data-aos="zoom-in"
+					data-aos-duration="1000"
+					data-aos-offset="250" href="m-burgers.html">
+						<div class="box">
+							<div class="imgBx">
+								<img src="images/burger.jpg" alt="burger">
+							</div>
+							<div class="text">
+								<h3>Special Burger</h3>
+							</div>
+						</div>
+					</a>
+					<a data-aos="zoom-in"
+					data-aos-duration="1000"
+					data-aos-offset="250" href="m-pizza.html">
+						<div class="box">
+							<div class="imgBx">
+								<img src="images/pizza.jpg" alt="pizza">
+							</div>
+							<div class="text">
+								<h3>Special Pizza</h3>
+							</div>
+						</div>
+					</a>
+					<a data-aos="zoom-in"
+					data-aos-duration="1000"
+					data-aos-offset="250" href="m-meat.html">
+						<div class="box">
+							<div class="imgBx">
+								<img src="images/meat.jpg" alt="meat">
+							</div>
+							<div class="text">
+								<h3>Special Meats</h3>
+							</div>
+						</div>
+					</a>
+					
+					<!-- on view all click-->
+					
+					<span id="extra">
+						<a href="m-sushi.html">
+							<div class="box">
+								<div class="imgBx">
+									<img src="images/sushi.jpg" alt="sushi">
+								</div>
+								<div class="text">
+									<h3>Special Sushi</h3>
+								</div>
+							</div>
+						</a>
+						<a href="m-cake.html">
+							<div class="box">
+								<div class="imgBx">
+									<img src="images/cake.jpg" alt="cake">
+								</div>
+								<div class="text">
+									<h3>Special Cake</h3>
+								</div>
+							</div>
+						</a>
+						<a href="m-drinks.html">
+							<div class="box">
+								<div class="imgBx">
+									<img src="images/drink.jpg" alt="drink">
+								</div>
+								<div class="text">
+									<h3>Special Drinks</h3>
+								</div>
+							</div>
+						</a>
+					</span>
+				</div>
+				<div data-aos="zoom-in"
+				data-aos-duration="800"
+				data-aos-offset="100" class="title" onclick="toggle()">
+					<a class="btn">VIEW ALL</a>
+				</div>
+			</section>
+		<hr>
+			<section class="expert scrollSpy" id="expert">
+				<div data-aos="zoom-in"
+				data-aos-duration="800"
+				data-aos-offset="100" class="title">
+					<h2 class="titleText">Our Kitchen <span>E</span>xperts</h2>
+					<p>Best experts in our kitchen with many awards.</p>
+				</div>
+			
+				<div class="content">
+					
+					<div data-aos="flip-left"
+					data-aos-easing="ease-out-cubic"
+					data-aos-duration="5000"
+					data-aos-offset="300" class="box">
+						<div class="imgBx">
+							<img src="images/expert1.jpg" alt="expert1">
+							<div class="expert-text">
+								<h2>Chen Shi</h2>
+								<p>Sushi Cooker</p>
+								<p>
+									<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+									<a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+									<a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+									<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>           
+								</p>
+							</div>
+						</div>
+						<div class="text">
+							<h3>Chen Shi</h3>
+						</div>
+					</div>
+
+					<div data-aos="flip-left"
+					data-aos-easing="ease-out-cubic"
+					data-aos-delay="200"
+					data-aos-duration="5000"
+					data-aos-offset="300" class="box">
+						<div class="imgBx">
+							<img src="images/expert2.jpg" alt="expert2">
+							<div class="expert-text">
+								<h2>Tim Harvey</h2>
+								<p>Meat Cooker</p>
+								<p>
+									<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+									<a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+									<a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+									<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>           
+								</p>
+							</div>
+						</div>
+						<div class="text">
+							<h3>Tim Harvey</h3>
+						</div>
+					</div>
+
+					<div data-aos="flip-left"
+					data-aos-easing="ease-out-cubic"
+					data-aos-delay="400"
+					data-aos-duration="5000"
+					data-aos-offset="300" class="box">
+						<div class="imgBx">
+							<img src="images/expert3.jpg" alt="expert3">
+							<div class="expert-text">
+								<h2>Laura Thorn</h2>
+								<p>Cakes cooker</p>
+								<p>
+									<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+									<a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+									<a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+									<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>           
+								</p>
+							</div>
+						</div>
+						<div class="text">
+							<h3>Laura Thorn</h3>
+						</div>
+					</div>
+
+					<div data-aos="flip-left"
+					data-aos-easing="ease-out-cubic"
+					data-aos-delay="600"
+					data-aos-duration="5000"
+					data-aos-offset="300" class="box">
+						<div class="imgBx">
+							<img src="images/expert4.jpg" alt="expert4">
+							<div class="expert-text">
+								<h2>Iau Griffiths</h2>
+								<p>Salads Cooker</p>
+								<p>
+									<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+									<a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+									<a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+									<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>           
+								</p>
+							</div>
+						</div>
+						<div class="text">
+							<h3>Iau Griffiths</h3>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="testimonials scrollSpy" id="testimonials">
+				<div data-aos="zoom-in"
+				data-aos-duration="800"
+				data-aos-offset="100" class="title white">
+					<h2 class="titleText">They <span>S</span>aid About Us</h2>
+					<p>Here you can see what some of the best cookers think about us.</p>
+				</div>
+				<div data-aos="zoom-in"
+				data-aos-duration="1000"
+				data-aos-offset="250" class="content">
+					<div class="box">
+						<div class="imgBx">
+							<img src="images/testi1.jpg" alt="testi1">
+						</div>
+						<div class="text">
+							<p>We were at "Food." a few weeks ago with some clients from Texas . I am finally getting back to tell you that we had a wonderful evening! The food, the service, the host, EVERYTHING was perfect! We hope to see you again soon. Keep up the good work !</p>
+							<h3>Sun Fenfang</h3>
+						</div>
+					</div>
+					<div class="box">
+						<div class="imgBx">
+							<img src="images/testi2.jpg" alt="testi2">
+						</div>
+						<div class="text">
+							<p>My wife and I, vacationing in SD from Chicago, had lunch Fri 17th at TFG and we were both absolutely pleased with everything at your place. Your wait staff was so pleasant. Do not change a thing!! I will recommend to everyone The French Gourmet.</p>
+							<h3>Jackson Booth</h3>
+						</div>
+					</div>
+					<div class="box">
+						<div class="imgBx">
+							<img src="images/testi3.jpg" alt="testi3">
+						</div>
+						<div class="text">
+							<p>Thank you for dinner last night. It was amazing!! I have to say it’s the best meal I have had in quite some time. My husband was very impressed and we can’t wait for our parents to come visit so that we can share our new favorite place with them.</p>
+							<h3>Bin Hwa-Young</h3>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="contact scrollSpy" id="contact">
+				<div data-aos="zoom-in"
+				data-aos-duration="800"
+				data-aos-offset="100" class="title">
+					<h2 class="titleText"><span>C</span>ontact Us</h2>
+					<p>If you want some incredibly tasty food contact us right now!</p>
+				</div>
+				<div data-aos="zoom-in"
+				data-aos-duration="1000"
+				data-aos-offset="250" class="contactForm">
+					<h3>Send Message</h3>
+					<div class="inputBox">
+						<input type="text" placeholder="Name">
+					</div>
+					<div class="inputBox">
+						<input type="email" placeholder="Email">
+					</div>
+					<div class="inputBox">
+						<textarea placeholder="Send Message"></textarea>
+					</div>
+					<div class="inputBox">
+						<input type="submit" value="Send">
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<p data-aos="zoom-in"
+			data-aos-duration="800"
+			data-aos-offset="50">Food<span>.</span></p>
+			<ul data-aos="zoom-in"
+			data-aos-duration="800"
+			data-aos-offset="80" class="f-nav">
+				<li><a href="#banner">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#expert">Expert</a></li>
+				<li><a href="#testimonials">Testimonials</a></li>
+				<li><a href="#contact">Contact</a></li>	
+			</ul>
+			<div data-aos="zoom-in"
+			data-aos-duration="800"
+			data-aos-offset="80" class="social">
+				<ul>
+					<li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+				</ul>
+			</div>
+			<p data-aos="zoom-in"
+			data-aos-duration="800"
+			data-aos-offset="40">All rights reserved &copy; 2020 N.Nikolov</p>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+
+		<script type="text/javascript">
+
+		// progressbar 
+
+		$(window).scroll(function(){
+			var scroll = $(window).scrollTop(),
+			dh = $(document).height(),
+			wh = $(window).height();
+			scrollPercent = (scroll / (dh - wh)) * 100;
+			$('#progressbar').css('height', scrollPercent + '%');
+		})
+
+
+		// sticky menu
+
+			window.addEventListener('scroll', function(){
+				const header = document.querySelector('header');
+				header.classList.toggle("sticky", window.scrollY > 0);
+			});
+
+			function toggleMenu() {
+				const menuToggle = document.querySelector('.menuToggle');
+				const navigation = document.querySelector('.navigation');
+				menuToggle.classList.toggle('active');
+				navigation.classList.toggle('active');
+			}
+
+		// scrollSpy
+
+		function animations() {
+			let elements = document.querySelectorAll('.scrollSpy');
+			if(!elements) {
+				return;
+			}
+			let elementTop;
+			let windowTop;
+			let elementBottom;
+			let windowBottom
+			for (let i = 0; i < elements.length; i++) {
+				elementTop = elements[i].offsetTop;
+				windowTop = document.documentElement.scrollTop;
+				elementBottom = elements[i].offsetTop + elements[i].offsetHeight;
+				windowBottom = window.innerHeight + window.scrollY;
+
+				if (elementTop > windowTop && windowBottom > elementBottom-window.screen.availHeight) {
+					let elementId = elements[i].id;
+					let menuItems = document.querySelectorAll('[data-spy]');
+					for(menuItem of menuItems) {
+						menuItem.classList.remove("current");
+					}
+					document.querySelector('[data-spy = "' + elementId + '"]').classList.add("current");
+				}
+			}
+		}
+
+		animations();
+		window.addEventListener("scroll", function(){
+			animations();
+		});
+
+		// view all button
+		
+			function toggle() {
+				let btn = document.getElementsByClassName('btn')[1];
+				let all = document.getElementById('extra');
+				if (btn.textContent == "VIEW ALL"){
+					all.style.display = 'flex';
+					btn.textContent = 'VIEW LESS';
+				} else {
+					btn.textContent = 'VIEW ALL';
+					all.style.display = 'none';
+				}
+			}
+
+		</script>
+	</body>
+</html>
